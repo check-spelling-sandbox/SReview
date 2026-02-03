@@ -72,7 +72,7 @@ The name of the track.
 =item email
 
 An email address associated with the track. If set, then
-C<sreview-notify> will Cc this email address when sending out emails.
+C<sreview-notify> will Cc this email address when sending out email.
 
 =item upstreamid
 

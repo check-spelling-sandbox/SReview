@@ -22,7 +22,7 @@ my $nonce = shift;
 die "Need nonce!" unless defined $nonce;
 
 my $mailers = $dbh->prepare("SELECT * FROM mailers WHERE nonce=?");
-$mailers->execute($nonce) or die "Cannot fetch emails!";
+$mailers->execute($nonce) or die "Cannot fetch email!";
 my $comment = $dbh->prepare("SELECT comment FROM commentlog JOIN talks ON commentlog.talk=talks.id WHERE nonce=? ORDER BY logdate DESC LIMIT 1");
 $comment->execute($nonce) or die "Cannot fetch comments!";
 
