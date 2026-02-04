@@ -132,7 +132,7 @@ sending out an email to the speakers and/or designated reviewers.
 This script is designed for talks in the `notification` state.
 
 The genericized version of this script allows you to run commands,
-and also has support for sending out emails from a template.
+and also has support for sending out email from a template.
 
 ### sreview-previews
 

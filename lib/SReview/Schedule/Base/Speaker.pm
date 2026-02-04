@@ -70,7 +70,7 @@ method is implemented here, that must be done by the subclass.
 =item email
 
 The email address of the speaker. If set, L<sreview-notify> can send
-emails to the speaker.
+email to the speaker.
 
 =item upstreamid
 
